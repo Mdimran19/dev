@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{ margin-top: 20px;
+    background-color: black;
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+}
+a,input,textarea{
+    cursor:pointer;
+}
+
+.unorder{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+li a:hover{
+    color: greenyellow;
+}
+a{
+    text-decoration: none;
+}
+.desgin{
+    color: burlywood;
+}
+.ih:hover{
+    background-color: green;
+    box-shadow: 5px 5px;
+
+}
+.one{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+}
+.ih{
+    width: 100%;
+    border-radius: 50%;
+}
+.two{margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.two12{
+    margin-top: 30px;
+}
+.three{ margin-top: 30px;
+    gap:20px;
+}
+.four{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.three{
+    text-align: center;
+}
+.four{
+    width: 50%
+}
+.four1:hover{
+    background: gold;
+    color: black;
+    box-shadow:20px 5px;
+}
+.four9{
+    padding: 5px 15px;
+    margin:5px 15px;
+}
+.four9:hover{background: white;
+             color: black;
+             box-shadow: 5px 20px;
+}
+.five{
+    text-align: center;
+}
+.six2{
+    padding-top: 20px;
+    list-style: none;
+    border: 1px solid green;
+    width: 100%;
+    gap: 15px;
+}
+.six{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#skills h1{
+    text-align: center;
+}
+.skills_columns{
+    disply:grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.skill_name_percent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.skill_outer_bar{
+    width: 100%;
+    height: 5px;
+    background: gray;
+    margin-top: 5px;
+}
+.bar1{
+    width: 65%;
+    background-color: aqua;
+    height: 5px;
+    border-radius: 10px;
+}
+.bar2{
+    width: 65%;
+    background-color: aquamarine;
+    height: 5px;
+    border-radius: 10px;
+}
+.bar3{
+    width: 85%;
+    background-color: rgb(22,128,0);
+    height: 5px;
+    border-radius: 10px;
+}
+.bar4{
+    width: 50%;
+    background-color: rgb(0,18,200);
+    height: 5px;
+    border-radius: 10px;
+}
+.bar5{
+    width: 75%;
+    background-color: blueviolet;
+    height: 5px;
+    border-radius: 10px;
+}
+.bar6{
+    width: 83%;
+    background-color: aliceblue;
+    height: 5px;
+    border-radius: 10px;
+}
+.card__image{
+    width: 100%;
+}
+.i1{
+    border-radius: 30px;
+    opacity: .7;
+}
+.card{
+    width: 100%;
+    border-radius: 30px;
+}
+.imran__grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.seven{
+    text-align: center;
+    margin-top: 30px;
+}
+.source__icons{
+    width: 100%;
+    height: 100%;
+    background: aquamarine;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    opacity:0;
+    transition: .7s;
+}
+.card__image img:hover.source__icons{
+    opacity: 1;
+    scale: 1;
+}
+.source__icons .bx{
+    font-size: 2rem;
+    color: green;
+}
+.nine{
+    text-align: end;
+}# frist-project
